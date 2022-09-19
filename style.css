@@ -1,0 +1,63 @@
+/*Elimino los margenes que pone por defecto el navegador*/
+
+*{
+    margin:0;
+}
+.banner{
+    height: 100vh;
+    background-image: url(./img/fondoweb.jpg);
+    background-size: cover;
+    
+}
+
+.titulo_principal{
+    color:white;
+    font-size: 2em;
+    padding-top: 3em;
+
+
+}
+
+.menu ul li{
+    display: inline;
+    font-size: 2em;
+    float:left;
+    font-family: sans-serif;
+   
+}
+
+.menu a{
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+.menu ul{
+    list-style-type: none;
+    overflow: hidden;
+    background-color:rgb(22, 13, 42);
+    position: fixed;
+    width: 100vw;
+
+}
+
+.trabajos{
+    height: 100vh;
+    background-color:brown;
+
+
+}
+.enlaces{
+    height: 100vh;
+    background-color: blueviolet;
+}
+.contacto{
+    height: 100vh;
+    background-color:crimson;
+
+}
+.active{
+color:red;
+}
